@@ -2,7 +2,7 @@
 import './App.css';
 import React from 'react'; 
 import Navbar from './components/Navbar.js';
-import background from './Image.png'
+import Background1 from './components/Background1.js'
 
 /*
 To do: 
@@ -16,13 +16,19 @@ function App() {
   return (
     
     
-    <div className="text-center h-screen w-screen">
+    <div className="text-center h-screen">
+      
       <Navbar />
       
 
-        
-      <div className=" bg-fixed bg-cover bg-center w-full h-full overflow-x-auto overflow-y-auto" style={{ backgroundImage: `url('${background}')`, backgroundSize: '120% 120%' }}>
-      </div>
+      {/* I want a hook which records the movement of the move relative 
+      to size of the whole background image, with 0, 0 being the top
+      left of the image (which should be off screen. Then, according
+      to my mouse, I want to shift the position of the image without
+      moving the position of the overall div. ) */}
+      
+      <Background1 />
+      
         
       
     </div>
