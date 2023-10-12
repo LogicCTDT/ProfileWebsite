@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 export const Background1 = () => {
-    const [position, setPosition] = useState({ x: 30, y: 30});
+    const [position, setPosition] = useState({ x: 30, y: 30 });
 
   const handleMouseMove = (e) => {
     const xOffset = ((e.clientX / window.innerWidth) * 50);
@@ -12,10 +12,10 @@ export const Background1 = () => {
     
   };
   const xConst = () => {
-    return (50 - ((50/window.innerWidth) * 25))
+    return (50 - ((30/window.innerWidth) * 50))
   }
   const yConst = () => {
-    return (50 - ((50/window.innerHeight) * 25))
+    return (50 - ((30/window.innerHeight) * 50))
   }
   /* map 50 50 to center always. We can definetly use math to do this
   */

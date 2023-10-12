@@ -3,7 +3,10 @@ import './App.css';
 import React from 'react'; 
 import Navbar from './components/Navbar.js';
 import Background1 from './components/Background1.js'
-
+// TODO: Make the Resume portion of the website, and start applying to shit.
+// Add resume portion in the readme as a hyperlink. Remove from navbar. 
+// Write navbar and resume portion.
+// Background image as galaxy, would be very cool I think
 /*
 To do: 
 Background image is a image but shortened a little, so moving mouse moves the background. Choose a suitable picture,
@@ -13,6 +16,7 @@ is three block srcolls under.
 
 */
 function App() {
+  
   return (
     
     
@@ -21,11 +25,9 @@ function App() {
       <Navbar />
       
 
-      {/* I want a hook which records the movement of the move relative 
-      to size of the whole background image, with 0, 0 being the top
-      left of the image (which should be off screen. Then, according
-      to my mouse, I want to shift the position of the image without
-      moving the position of the overall div. ) */}
+     {/* make background take in image url later
+     */}
+      
       
       <Background1 />
       
