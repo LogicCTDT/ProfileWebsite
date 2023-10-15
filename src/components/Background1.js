@@ -1,5 +1,6 @@
 import background from './Image.png'
 import { useState } from 'react';
+import AboutMe from "./AboutMe.js";
 
 
 export const Background1 = () => {
@@ -22,10 +23,12 @@ export const Background1 = () => {
   
     return (
     <div className="w-full bg-center bg-cover h-full absolute " onMouseMove={handleMouseMove}>
-    <div className=" bg-fixed w-full h-full bg-no-repeat items-center
-    overflow-x-auto overflow-y-auto" style={{backgroundImage: `url('${background}')`, 
+    <div className=" bg-fixed w-full h-full bg-no-repeat items-center justify-center
+    overflow-x-auto overflow-y-auto flex " style={{backgroundImage: `url('${background}')`, 
     backgroundSize: '120% 120%' , 
-    backgroundPosition: `${position.x + xConst()}% ${position.y + yConst()}%`,}}></div>
+    backgroundPosition: `${position.x + xConst()}% ${position.y + yConst()}%`,}}>
+        <AboutMe />
+    </div>
     </div>
     );
 }

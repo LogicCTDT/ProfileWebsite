@@ -8,6 +8,7 @@ module.exports = {
       'contain': 'contain',
       '100%': '100%',
       '16': '4rem',
+      '80%': '80%',
     },
     extend: {},
   },

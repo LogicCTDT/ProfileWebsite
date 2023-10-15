@@ -30,7 +30,7 @@ function App() {
       
       
       <Background1 />
-      
+       
         
       
     </div>
