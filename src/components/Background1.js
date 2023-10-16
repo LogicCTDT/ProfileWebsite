@@ -1,4 +1,4 @@
-import background from './Image.png'
+import background from './StarryBackground.jpeg'
 import { useState } from 'react';
 import AboutMe from "./AboutMe.js";
 
