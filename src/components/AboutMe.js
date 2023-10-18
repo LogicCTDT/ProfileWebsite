@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Links from './Links.js';
 
 export const AboutMe = () => {
     
@@ -16,6 +16,7 @@ export const AboutMe = () => {
                 {/** consider uploading a video of me playing the piano. No face though.*/} 
 
                 <span className="block text-sm">If you're interested in what I've done recently, have a look at my fun projects. </span>
+                <Links />
             </div>
         </div>
     );
