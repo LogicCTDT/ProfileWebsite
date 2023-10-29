@@ -4,25 +4,19 @@ import Links from './Links.js';
 export const AboutMe = () => {
     
     return (
-        <div className="w-4/5 h-4/5 flex justify-center items-center">
-            <div className="w-3/5 h-1/5 text-center text-white flex flex-col justify-between">
-                <span className="block text-2xl font-sans font-extrabold text-right">Hi!</span>
+        <div className="w-4/5 h-4/5 flex justify-center items-center ">
+            <div className="w-7/12 h-1/5 text-center flex flex-col justify-between space-y-10">
+                <span className="block text-4xl font-serif text-middle">Hi, I'm Ricky!</span>
 
-                <span className="inline-block text-left text-xl">My name is Ricky, I'm a third year U of T student majoring in Computer Science and Neuroscience. 
-                In my free time I like reading, gaming, playing the piano and learning new things. If you're interested in what I've done recently, 
-                have a look at my fun projects. </span>
+                <span className="inline-block text-middle text-xl">I'm a third year U of T student majoring in Computer Science and Neuroscience. 
+                In my free time I like reading, gaming, and learning new things. If you're interested in what I've done recently, 
+                have a look at my projects. </span>
 
                 {/** normally put here employment + projects, but it seems I don't have either */}
 
 
                 {/** consider uploading a video of me playing the piano. No face though.*/} 
-
-<<<<<<< HEAD
-        
-=======
-                <span className="block text-sm">If you're interested in what I've done recently, have a look at my fun projects. </span>
                 <Links />
->>>>>>> 671e8552075442da1cc9bebbd074170a2f1cbf41
             </div>
         </div>
     );
