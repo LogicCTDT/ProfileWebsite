@@ -10,7 +10,10 @@ module.exports = {
       '16': '4rem',
       '80%': '80%',
     },
-    extend: {},
+    extend: {colors: {
+      'pdf': '#31363a',
+    },
+  },
   },
   plugins: [],
 }
